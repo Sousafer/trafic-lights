@@ -8,7 +8,7 @@ const Trafficlight = () => {
 		<div className="container">
 			<div className="blackstrip">.</div>
 
-			<div className="traffic-light">
+			<div className="traffic-light ">
 				<div
 					onClick={() => setColor("red")}
 					className={

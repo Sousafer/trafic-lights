@@ -1,28 +1,37 @@
-.blackstrip
-{
-background-color: black;
-height: 60px;
-width:30px;
-margin-left: 35px;
+.blackstrip {
+    background-color: black;
+    height: 80px;
+    width: 30px;
+    margin-left: 35px;
 }
 
-.traffic-light{
-
-    width:100px;
+.traffic-light {
+    align-self: center;
+    width: 95px;
+    height: 250px;
     background-color: black;
+    padding: 13px 0;
 }
 
 .light {
-    width: 100px;
-    height: 100px;
-    background:black;
-    border-radius:50%;
+    width: 70px;
+    height: 70px;
+    background: black;
+    border-radius: 50%;
 }
 
-.red {background:red}
-.yellow {background:yellow}
-.green {background:green}
+.red {
+    background: red
+}
 
-.glow{
+.yellow {
+    background: yellow
+}
+
+.green {
+    background: green
+}
+
+.glow {
     box-shadow: 0px 0px 9px 4px #0ff;
 }
